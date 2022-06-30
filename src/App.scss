@@ -177,3 +177,62 @@
     }
   }
 }
+.copyright {
+  background-color: lightgrey;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  background-color: burlywood;
+  height: 100px;
+}
+.Content {
+  background-color: cornsilk;
+  height: 600px;
+}
+.comp-logo {
+  width: 60px;
+  height: 40px;
+}
+.comp-logo {
+  height: 100px;
+  width: 100px;
+}
+.right {
+  margin-left: 450px;
+}
+.popup-container {
+
+  height: 100%;
+  width: 100%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  background-color:black;
+  width:100%;
+  height: 100%;
+  position: relative;
+  margin-bottom:-1400px;
+ color:white;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.login-btn:hover{
+  cursor: pointer;
+  // background-color: blanchedalmond;
+  transform: scale(1.1);
+}
+.login-btn{
+  margin-top: 15px;
+  width:100px;
+  height: 30px;
+  border-radius: 13px;
+  font-size: 20px;
+}

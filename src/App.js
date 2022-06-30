@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import "./App.scss";
 
 class App extends Component {
@@ -153,6 +154,7 @@ class App extends Component {
     const { rotationDegree, positions, isRotating, result } = this.state;
     return (
       <div className="app">
+        <Header />
         <div className="wheels">
           <div
             className="each-wheel"
@@ -188,6 +190,7 @@ class App extends Component {
             )}
           </div>
         )}
+        <Footer />
       </div>
     );
   }
