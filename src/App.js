@@ -176,6 +176,7 @@ class App extends Component {
             Start
           </button>
         </div>
+
         {result.type && (
           <div
             className="toast show"
@@ -190,6 +191,7 @@ class App extends Component {
             )}
           </div>
         )}
+
         <Footer />
       </div>
     );
