@@ -11,7 +11,7 @@
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-scripts": "4.0.0",
-    "zzd-component": "1.1.5-preview.7"
+    "zzd-component": "1.0.2-preview.2"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
