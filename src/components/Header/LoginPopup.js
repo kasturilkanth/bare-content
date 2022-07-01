@@ -21,9 +21,9 @@ function LoginPopup() {
       <div className="wrapper">
         <form onSubmit={handleSubmit}>
           E-mail:<input type="email"></input>
-          <br></br>
+          {/* <br></br> */}
           password:<input type="password"></input>
-          <br></br>
+          {/* <br></br> */}
           <button className="login-btn">LogIn</button>
         </form>
       </div>
