@@ -21,9 +21,8 @@ function Header() {
           ></img>
         </div>
         <div className="right">
-          <div className="balance"></div>
-          <div className="avatar">
-            {/* <IconButton>
+          {/* <div className="avatar"> */}
+          {/* <IconButton>
               <Avatar
                 src="/images/example.jpg"
                 style={{
@@ -33,7 +32,7 @@ function Header() {
                 }}
               />
             </IconButton> */}
-          </div>
+          {/* </div> */}
           <div className="login-btn">
             <button className="login-btn" onClick={handleLogin}>
               LogIn
